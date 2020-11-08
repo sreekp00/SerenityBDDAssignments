@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.assignment.junit.AssignmentFour" skipped="0" tests="2" time="2.71" timestamp="2020-10-27 11:29:32"><testcase classname="com.assignment.junit.AssignmentFour" name="Autherize user fail"><error message="Expected response body to be verified as JSON, HTML or XML but no content-type was defined in the response.&#10;Try registering a default parser using:&#10;   RestAssured.defaultParser(&lt;parser type&gt;);&#10;Content was:&#10;&#10;" type="java.lang.IllegalStateException">Expected response body to be verified as JSON, HTML or XML but no content-type was defined in the response.
+Try registering a default parser using:
+   RestAssured.defaultParser(&lt;parser type&gt;);
+Content was:
+
+</error><system-err>Expected response body to be verified as JSON, HTML or XML but no content-type was defined in the response.
+Try registering a default parser using:
+   RestAssured.defaultParser(&lt;parser type&gt;);
+Content was:
+
+&#13;
+io.restassured.assertion.StreamVerifier.newAssertion(StreamVerifier.groovy:43)&#13;
+io.restassured.assertion.BodyMatcher.validate(BodyMatcher.groovy:85)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1026)&#13;
+groovy.lang.Closure.call(Closure.java:412)&#13;
+groovy.lang.Closure.call(Closure.java:428)&#13;
+io.restassured.assertion.BodyMatcherGroup.validate(BodyMatcherGroup.groovy:47)&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1259)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
+com.assignment.junit.AssignmentFour.autherizeUserFail(AssignmentFour.java:60)&#13;
+</system-err></testcase><testcase classname="com.assignment.junit.AssignmentFour" name="Autherize user sucess"/></testsuite>

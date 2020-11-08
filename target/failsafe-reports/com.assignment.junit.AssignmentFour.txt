@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.assignment.junit.AssignmentFour
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.924 s <<< FAILURE! - in com.assignment.junit.AssignmentFour
+com.assignment.junit.AssignmentFour.autherizeUserFail  Time elapsed: 2.208 s  <<< ERROR!
+java.lang.IllegalStateException: 
+Expected response body to be verified as JSON, HTML or XML but no content-type was defined in the response.
+Try registering a default parser using:
+   RestAssured.defaultParser(<parser type>);
+Content was:
+
+
+	at com.assignment.junit.AssignmentFour.autherizeUserFail(AssignmentFour.java:60)
+
